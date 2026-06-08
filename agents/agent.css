@@ -185,3 +185,39 @@ height:250px;
 object-fit:cover;
 display:block;
 }
+
+.why{
+background:white;
+padding:25px;
+border-radius:25px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+margin-bottom:25px;
+}
+
+.why h2{
+margin-bottom:20px;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+}
+
+.why-grid div{
+background:#f8fafc;
+padding:20px;
+border-radius:15px;
+text-align:center;
+}
+
+.why-grid strong{
+font-size:28px;
+color:#d4a63a;
+}
+
+@media(max-width:768px){
+.why-grid{
+grid-template-columns:1fr;
+}
+}
