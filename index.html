@@ -1,180 +1,211 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KartImmo - Carte NFC Immobilière</title>
-  <link rel="stylesheet" href="./style.css?v=2" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KartImmo - Carte NFC immobilière</title>
+<link rel="stylesheet" href="style.css?v=100">
 </head>
+
 <body>
 
 <header class="hero">
-  <nav class="navbar">
-    <div class="logo">⌂ Kart<span>Immo</span></div>
-    <a href="#packs" class="nav-btn">Commander</a>
-  </nav>
+<nav class="navbar">
+<img src="images/logo.png" class="logo-img" alt="KartImmo">
+<div class="nav-links">
+<a href="#packs">Packs</a>
+<a href="#demo">Démo</a>
+<a href="mailto:contact@kartimmo.com" class="nav-btn">Contact</a>
+</div>
+</nav>
 
-  <div class="hero-wrap">
-    <div class="hero-text">
-      <div class="badge">Nouvelle génération</div>
-      <h1>La carte de visite immobilière nouvelle génération</h1>
-      <p>
-        Partagez vos coordonnées, vos biens et vos services en un instant grâce à la technologie NFC.
-      </p>
+<div class="hero-content">
+<div class="hero-text">
+<p class="badge">Carte NFC & mini-site immobilier</p>
+<h1>La carte de visite immobilière nouvelle génération</h1>
+<p>
+KartImmo transforme votre carte de visite en un outil commercial connecté :
+coordonnées, WhatsApp, biens disponibles, galeries photos et contact enregistrable.
+</p>
 
-      <div class="hero-actions">
-        <a href="#packs" class="btn gold">Découvrir les packs</a>
-        <a href="#biens" class="btn outline">Voir comment ça marche</a>
-      </div>
+<div class="hero-buttons">
+<a href="agents/demo/" class="btn gold">Voir la démo</a>
+<a href="#packs" class="btn outline">Découvrir les packs</a>
+</div>
 
-      <div class="mini-features">
-        <div>📡 <strong>Partage instantané</strong></div>
-        <div>🍃 <strong>Écologique</strong></div>
-        <div>📊 <strong>Professionnel</strong></div>
-        <div>🔒 <strong>Sécurisé</strong></div>
-      </div>
-    </div>
+<div class="hero-stats">
+<div><strong>1 clic</strong><span>pour vous contacter</span></div>
+<div><strong>NFC</strong><span>sans application</span></div>
+<div><strong>24/7</strong><span>profil accessible</span></div>
+</div>
+</div>
 
-    <div class="hero-visual">
-      <div class="card card-one">
-        <h2>Kart<span>Immo</span></h2>
-        <p>Agent immobilier</p>
-        <small>NFC</small>
-      </div>
-      <div class="card card-two">
-        <p>Scannez ou approchez<br>votre téléphone</p>
-        <div class="qr">QR</div>
-        <small>📡</small>
-      </div>
-    </div>
-  </div>
+<div class="cards-visual">
+<img src="images/carte-recto.png" class="card-img recto" alt="Carte KartImmo recto">
+<img src="images/carte-verso.png" class="card-img verso" alt="Carte KartImmo verso">
+</div>
+</div>
 </header>
 
-<section id="biens" class="biens">
-  <div class="steps">
-    <h2>Vos biens directement accessibles</h2>
+<section class="section intro">
+<p class="section-label">Pourquoi KartImmo ?</p>
+<h2>Une carte qui ne finit pas oubliée dans un tiroir</h2>
+<p>
+Avec KartImmo, vos prospects accèdent immédiatement à votre profil professionnel,
+vos coordonnées et vos biens immobiliers. Vous donnez une image moderne, sérieuse
+et premium dès le premier contact.
+</p>
 
-    <div class="step">1. L’agent approche sa carte du téléphone</div>
-    <div class="step">2. Le profil de l’agent s’affiche instantanément</div>
-    <div class="step">3. Ses biens immobiliers sont accessibles en un clic</div>
-  </div>
+<div class="features-grid">
+<div>
+<h3>📱 Partage instantané</h3>
+<p>Approchez la carte du téléphone : votre page s’ouvre automatiquement.</p>
+</div>
 
-  <div class="phone profile-phone">
-    <div class="agent-photo">👤</div>
-    <h3>Yassine El Amrani</h3>
-    <p>Agent immobilier - Casablanca</p>
+<div>
+<h3>💬 Contact direct</h3>
+<p>WhatsApp, appel, email et enregistrement du contact en un seul clic.</p>
+</div>
 
-    <div class="icons">
-      <span>WhatsApp</span>
-      <span>Appel</span>
-      <span>Email</span>
-    </div>
+<div>
+<h3>🏠 Biens disponibles</h3>
+<p>Affichez vos biens avec photos, prix, description et galerie détaillée.</p>
+</div>
 
-    <h4>Mes biens à vendre (10/10)</h4>
-    <div class="property">
-      <div class="thumb"></div>
-      <div>
-        <strong>Appartement Maarif</strong>
-        <p>1 250 000 DH</p>
-      </div>
-    </div>
-    <div class="property">
-      <div class="thumb"></div>
-      <div>
-        <strong>Villa Bouskoura</strong>
-        <p>2 950 000 DH</p>
-      </div>
-    </div>
-    <button>Voir tous les biens</button>
-  </div>
-
-  <div class="limit-box">
-    <h3>Dans le Pack Pro</h3>
-    <p>Chaque bien peut contenir :</p>
-    <ul>
-      <li>Jusqu’à 15 photos</li>
-      <li>Prix du bien</li>
-      <li>Description détaillée</li>
-      <li>Localisation</li>
-      <li>Bouton WhatsApp</li>
-    </ul>
-    <strong>Jusqu’à 10 biens inclus dans le Pack Pro.</strong>
-    <small>Besoin de plus ? Offre sur mesure.</small>
-  </div>
+<div>
+<h3>✨ Image premium</h3>
+<p>Une présentation moderne qui renforce votre crédibilité auprès des prospects.</p>
+</div>
+</div>
 </section>
 
-<section id="packs" class="packs">
-  <h2>Choisissez le pack qui vous convient</h2>
+<section class="section how">
+<p class="section-label">Comment ça marche ?</p>
+<h2>Une expérience simple et professionnelle</h2>
 
-  <div class="pricing">
-    <div class="pack">
-      <h3>Pack Starter</h3>
-      <p>Idéal pour commencer</p>
-      <h4>299 DH <span>/ an</span></h4>
-      <ul>
-        <li>1 carte NFC personnalisée</li>
-        <li>Profil agent</li>
-        <li>Coordonnées complètes</li>
-        <li>WhatsApp & Email</li>
-        <li>Aucun bien immobilier affiché</li>
-      </ul>
-      <a href="mailto:contact@kartimmo.com">Commander</a>
-    </div>
-
-    <div class="pack popular">
-      <div class="tag">Le plus populaire</div>
-      <h3>Pack Pro</h3>
-      <p>Pour les agents immobiliers</p>
-      <h4>499 DH <span>/ an</span></h4>
-      <ul>
-        <li>Tout le Pack Starter</li>
-        <li>Jusqu’à 10 biens immobiliers</li>
-        <li>Maximum 15 photos par bien</li>
-        <li>Prix, description, localisation</li>
-        <li>Bouton WhatsApp sur chaque bien</li>
-        <li>Mise à jour des biens</li>
-      </ul>
-      <small>Plus de 10 biens : devis personnalisé.</small>
-      <a href="mailto:contact@kartimmo.com">Commander</a>
-    </div>
-
-    <div class="pack">
-      <h3>Pack Agence</h3>
-      <p>Pour les équipes et agences</p>
-      <h4>1299 DH <span>/ an</span></h4>
-      <ul>
-        <li>5 cartes NFC personnalisées</li>
-        <li>Jusqu’à 50 biens immobiliers</li>
-        <li>Maximum 15 photos par bien</li>
-        <li>Gestion de plusieurs agents</li>
-        <li>Support prioritaire</li>
-      </ul>
-      <small>Plus de 50 biens : sur devis.</small>
-      <a href="mailto:contact@kartimmo.com">Commander</a>
-    </div>
-  </div>
+<div class="steps">
+<div><span>1</span><h3>Vous remettez votre carte</h3><p>Carte NFC personnalisée avec votre identité visuelle.</p></div>
+<div><span>2</span><h3>Le prospect approche son téléphone</h3><p>Aucune application nécessaire.</p></div>
+<div><span>3</span><h3>Votre mini-site s’ouvre</h3><p>Profil, contacts, biens et galeries photos.</p></div>
+<div><span>4</span><h3>Il vous contacte</h3><p>WhatsApp, appel ou email instantanément.</p></div>
+</div>
 </section>
 
-<section class="services">
-  <div>
-    <p class="overline">Plus que des cartes</p>
-    <h2>Nous offrons d’autres services pour les agences immobilières</h2>
-    <div class="service-grid">
-      <div>💻 Création de sites web immobiliers</div>
-      <div>🏢 Systèmes de gestion immobilière</div>
-      <div>🚀 Automatisation & marketing digital</div>
-    </div>
-  </div>
+<section id="demo" class="section demo-section">
+<div class="demo-text">
+<p class="section-label">Expérience agent</p>
+<h2>Un mini-site immobilier lié à votre carte</h2>
+<p>
+Votre page agent devient votre vitrine digitale : photo, présentation,
+boutons de contact, derniers biens, pages détails et galeries photos.
+</p>
 
-  <div class="contact-box">
-    Intéressé par nos services ? Contactez-nous par email :
-    <strong>contact@kartimmo.com</strong>
-  </div>
+<ul>
+<li>Profil professionnel premium</li>
+<li>Bouton WhatsApp, appel et email</li>
+<li>Contact enregistrable sur téléphone</li>
+<li>Biens immobiliers avec pages détails</li>
+<li>Galeries photos jusqu’à 10 photos par bien</li>
+</ul>
+
+<a href="agents/demo/" class="btn gold">Voir la démo en direct</a>
+</div>
+
+<div class="phone-preview">
+<div class="phone-top"></div>
+<h3>Mouad Zyane</h3>
+<p>Conseiller Immobilier Premium</p>
+<div class="phone-actions">
+<span>WhatsApp</span><span>Appeler</span>
+</div>
+<div class="mini-property"></div>
+<div class="mini-property small"></div>
+</div>
+</section>
+
+<section id="packs" class="section packs">
+<p class="section-label">Nos offres</p>
+<h2>Des packs simples et accessibles</h2>
+<p class="packs-subtitle">Offre de lancement réservée aux premiers clients.</p>
+
+<div class="pricing">
+<div class="pack">
+<h3>Starter</h3>
+<p class="pack-desc">Pour démarrer avec une présence moderne.</p>
+<h4>350 DH <span>/ an</span></h4>
+<ul>
+<li>1 carte NFC personnalisée</li>
+<li>Profil professionnel</li>
+<li>WhatsApp, appel et email</li>
+<li>Enregistrement du contact</li>
+<li>Jusqu’à 5 biens immobiliers</li>
+<li>Jusqu’à 10 photos par bien</li>
+<li>Pages détails des biens</li>
+</ul>
+<a href="mailto:contact@kartimmo.com" class="pack-btn">Commander</a>
+</div>
+
+<div class="pack popular">
+<div class="tag">Le plus populaire</div>
+<h3>Pro</h3>
+<p class="pack-desc">Pour les agents actifs.</p>
+<h4>500 DH <span>/ an</span></h4>
+<ul>
+<li>Tout le Pack Starter</li>
+<li>Jusqu’à 15 biens immobiliers</li>
+<li>Jusqu’à 10 photos par bien</li>
+<li>Badge Agent Premium</li>
+<li>Personnalisation avancée</li>
+<li>Mise à jour prioritaire</li>
+<li>Support prioritaire</li>
+</ul>
+<a href="mailto:contact@kartimmo.com" class="pack-btn gold-btn">Commander</a>
+</div>
+
+<div class="pack">
+<h3>Agence</h3>
+<p class="pack-desc">Pour les agences et équipes.</p>
+<h4>1250 DH <span>/ an</span></h4>
+<ul>
+<li>Jusqu’à 5 cartes NFC</li>
+<li>Gestion multi-agents</li>
+<li>Jusqu’à 50 biens immobiliers</li>
+<li>Jusqu’à 10 photos par bien</li>
+<li>Personnalisation avancée</li>
+<li>Support prioritaire</li>
+<li>Offre sur mesure disponible</li>
+</ul>
+<a href="mailto:contact@kartimmo.com" class="pack-btn">Demander un devis</a>
+</div>
+</div>
+</section>
+
+<section class="section services">
+<p class="section-label">Services complémentaires</p>
+<h2>Nous accompagnons aussi les agences immobilières</h2>
+
+<div class="service-grid">
+<div>💻 Création de sites web immobiliers</div>
+<div>🏢 Systèmes de gestion pour agences</div>
+<div>🚀 Automatisation & marketing digital</div>
+</div>
+
+<p class="contact-text">
+Pour toute demande spécifique, contactez-nous par email :
+<strong>contact@kartimmo.com</strong>
+</p>
+</section>
+
+<section class="final-cta">
+<h2>Prêt à moderniser votre image ?</h2>
+<p>Offrez à vos prospects une expérience professionnelle dès le premier contact.</p>
+<a href="mailto:contact@kartimmo.com" class="btn gold">Commander ma carte KartImmo</a>
 </section>
 
 <footer>
-  <strong>KartImmo</strong>
-  <p>© 2026 KartImmo. Tous droits réservés.</p>
+<img src="images/logo.png" class="footer-logo" alt="KartImmo">
+<p>Carte NFC & mini-site immobilier pour professionnels de l’immobilier.</p>
+<p>© 2026 KartImmo. Tous droits réservés.</p>
 </footer>
 
 </body>
